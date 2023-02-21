@@ -11,4 +11,9 @@ router.route("/:id")
     .get(contacts.findOne)
     .put(contacts.update)
     .delete(contacts.detele);
+router.route("/login")
+    .post(users.create);
+    router.route("/login")
+.post(users.create);
+
 module.exports = router;
